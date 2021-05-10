@@ -1,0 +1,17 @@
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #fdcf51;
+  margin: 2em;
+}
+.circle.red {
+  background-color: red;
+}
+.circle.blue {
+  background-color: blue;
+}
+
+.gsap {
+  visibility: hidden;
+}

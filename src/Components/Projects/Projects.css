@@ -1,0 +1,31 @@
+/*--------------------------Mobile------------------------*/
+.projects {
+  background-color: var(--secondary-color);
+  padding: 1.5em 1.5em 2em 1.5em;
+}
+.project__heading {
+  font-size: 3rem;
+  color: var(--light-blue);
+  text-align: center;
+}
+/*---Project-container---*/
+.project__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 1em;
+}
+
+/*------------------------Mobile----------------------*/
+@media screen and (min-width: 768px) {
+  .project__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*------------------------Mobile----------------------*/
+@media screen and (min-width: 1023px) {
+  .project__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

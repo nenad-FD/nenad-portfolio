@@ -1,0 +1,71 @@
+.skillBox {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  margin-bottom: 1em;
+  padding: 1.5em 2em;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skillBox__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skillBox__icon .icon {
+  font-size: 5rem;
+}
+.skillBox__name {
+  font-size: 1.5rem;
+  color: var(--light-gray);
+}
+
+.skillBox__content {
+  flex-grow: 1;
+  margin-top: 1em;
+}
+.skillBox__title {
+  font-size: 1.3rem;
+  color: var(--light-blue);
+  font-weight: 500;
+}
+.skillBox__text {
+  color: var(--light-gray);
+}
+
+/*---------------------------Tablet------------------------*/
+@media screen and (min-width: 768px) {
+  .skillBox {
+    width: 50%;
+    position: relative;
+  }
+  .skillBox:hover.skillBox::after {
+    background-color: #eea347;
+  }
+  .skillBox::after {
+    content: "";
+    position: absolute;
+    background-color: var(--light-blue);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 0;
+    transition: background-color 0.2s ease-in;
+  }
+  .skillBox:nth-child(even)::after {
+    left: -41px;
+  }
+  .skillBox:nth-child(odd)::after {
+    right: -41px;
+  }
+
+  .skillBox:nth-child(even) {
+    align-self: flex-end;
+    transform: translateX(30px);
+  }
+  .skillBox:nth-child(odd) {
+    transform: translateX(-30px);
+  }
+}

@@ -1,0 +1,59 @@
+/*-------------------------Mobile-------------------------*/
+.metodology {
+  background-color: var(--yellow-color);
+  padding: 2.5em 2em;
+}
+.metodology__header {
+  font-size: 2rem;
+  color: var(--white-color);
+  text-align: center;
+}
+/*---Metodology-container--*/
+.metodology__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+  margin-top: 2em;
+}
+.metodology__card {
+  background: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+}
+
+.metodology__img {
+  width: 200px;
+}
+.metodology__img img {
+  max-width: 100%;
+}
+.metodology__title {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 1em;
+}
+.metodology__text {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+/*-------------------------Tablet-------------------------*/
+@media screen and (min-width: 768px) {
+  .metodology__container {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3em;
+  }
+}
+
+/*-------------------------Large Desktop-----------------------*/
+@media screen and (min-width: 1201px) {
+  .metodology__container {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 3em;
+  }
+}

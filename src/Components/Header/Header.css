@@ -1,0 +1,91 @@
+/*-----------------------------Mobile--------------------------------*/
+.header {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1em;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*--Navbar-toggle--*/
+.header__toggle {
+  cursor: pointer;
+  display: inline;
+}
+.toggleIcon {
+  font-size: 2rem;
+  color: var(--white-color);
+}
+
+/*--Header-logo--*/
+.header__logo {
+  font-size: 2rem;
+  color: var(--light-gray);
+  font-weight: 600;
+}
+.header__logo span {
+  font-size: 2.5rem;
+  color: var(--light-blue);
+  font-weight: 600;
+}
+
+/*--Header-navbar--*/
+.header__navbar {
+  position: absolute;
+  right: 0;
+  background: var(--primary-color);
+  transition: transform 0.7s ease-in-out;
+}
+.header__navbar--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 1em 0em;
+}
+
+.header__navbar--item {
+  margin: 0.5em 0;
+  cursor: pointer;
+}
+.header__navbar--link {
+  color: var(--white-color);
+  background-color: var(--light-blue);
+  min-width: 115px;
+  text-align: center;
+}
+
+/*Toggle action*/
+.show-navbar {
+  transform: translateX(0);
+}
+.hide-navbar {
+  transform: translateX(100%);
+}
+
+/*-----------------------------Tabelt and Desktop-------------------------------*/
+@media screen and (min-width: 768px) {
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__toggle {
+    display: none;
+  }
+  .header__navbar {
+    position: relative;
+    transform: translateX(0);
+  }
+  .header__navbar--list {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .header__navbar--item {
+    margin: 0 0.5em;
+  }
+}

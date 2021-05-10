@@ -1,0 +1,48 @@
+.projectBox {
+  background-color: var(--primary-color);
+  max-width: 350px;
+
+  border-radius: 10px;
+  margin-top: 2em;
+}
+.projectBox__content {
+  padding: 1em;
+}
+
+.projectBox__img img {
+  width: 100%;
+  max-height: 150px;
+}
+
+.projectBox__title {
+  font-size: 1.3rem;
+  color: var(--light-blue);
+  margin-bottom: 1em;
+}
+.projectBox__text {
+  color: var(--light-gray);
+}
+.projectBox__text--show {
+  font-size: 0.9rem;
+  color: var(--light-blue);
+  cursor: pointer;
+}
+.projectBox__devices,
+.projectBox__technologies,
+.link__live {
+  color: var(--light-blue);
+}
+
+.projectBox__devices span,
+.projectBox__technologies span {
+  color: var(--light-gray);
+}
+.projectBox__links {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.github__icon {
+  font-size: 1.5rem;
+  color: var(--light-blue);
+}
