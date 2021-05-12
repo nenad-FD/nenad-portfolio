@@ -41,7 +41,7 @@ function Contact() {
               <img src="/img/Mobile.svg" alt="mobile-img" />
             </div>
             <h4 className="card__title">Phone</h4>
-            <span className="card__phone">+381 61 XXX-XX-XX</span>
+            <span className="card__phone">+381 61 642-76-48</span>
           </div>
           <div className="contact__card">
             <div className="card__img">

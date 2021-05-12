@@ -39,15 +39,15 @@ function About() {
               </h3>
               <p className="about__title--text lead">
                 Hi, my name is Nenad Lalošević. I am Junior Front-end React
-                Developer. I have been dealing with Front-end since almost two
-                years. I am able to work with HTML, CSS, framework for CSS, i.e.
-                Bootstrap, preprocessor for CSS, i.e. SASS, JavaScript, React.
-                Also, I had experience with using state manager called Redux.
-                Also, my skillsets include fundamentals of technologies like
-                Material UI, GSAP, Chart.js...
-                <br /> <br />I am able to display data using Graphs and Maps. I
-                have experience with making projects such as landing pages,
-                simple FE applications using the listed technologies.
+                Developer. I have been dealing with Front-end for almost two
+                years. I able to work with HTML, CSS, a framework for CSS, i.e.,
+                Bootstrap, a preprocessor for CSS, i.e., SASS, JavaScript,
+                React. Also, I had experience with using a state manager called
+                Redux. Also, my skillsets include fundamentals of technologies
+                like Material UI, GSAP, Chart.js...
+                <br /> <br />I have experience with displaying data using Graphs
+                and Maps. I have experience in making projects such as landing
+                pages, simple FE applications using the listed technologies.
               </p>
             </div>
             <div className="about__content--box">
@@ -72,7 +72,7 @@ function About() {
                 </li>
                 <li>
                   <IoIosArrowForward className="arrow__icon" />
-                  Phone: <span>+381 61 XXX-XX-XX</span>
+                  Phone: <span>+381 61 642-76-48</span>
                 </li>
                 <li>
                   <IoIosArrowForward className="arrow__icon" />

@@ -17,7 +17,7 @@ function Showcase() {
             <span>Front-end</span> React Developer
           </h3>
           <p className="showcase__description lead">
-            Ready for work on projects and motivated for learning new things and
+            Ready for working on projects and motivated to learn new things and
             technologies.
           </p>
           <Link

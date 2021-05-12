@@ -15,7 +15,7 @@ function Metodology() {
           </h4>
           <p className="metodology__text">
             Analysis of the whole project. Project division on smaller parts and
-            analysis of every individual parts.
+            analysis of every individual part.
           </p>
         </div>
         <div className="metodology__card">
@@ -26,7 +26,7 @@ function Metodology() {
             <span>02</span> Planing
           </h4>
           <p className="metodology__text">
-            Layout choice for all necessary versions. Fonts, colors and other
+            Layout choice for all necessary versions. Fonts, colors, and other
             details choice.
           </p>
         </div>
@@ -38,7 +38,7 @@ function Metodology() {
             <span>03</span> Building
           </h4>
           <p className="metodology__text">
-            Sistematic and thorough approach of project making.
+            A Systematic and thorough approach to project making.
           </p>
         </div>
         <div className="metodology__card">
