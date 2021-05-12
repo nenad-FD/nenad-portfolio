@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nenad-portfolio/static/css/main.db8ca18b.chunk.css",
+    "main.js": "/nenad-portfolio/static/js/main.0ef3bc59.chunk.js",
+    "main.js.map": "/nenad-portfolio/static/js/main.0ef3bc59.chunk.js.map",
+    "runtime-main.js": "/nenad-portfolio/static/js/runtime-main.21845fd4.js",
+    "runtime-main.js.map": "/nenad-portfolio/static/js/runtime-main.21845fd4.js.map",
+    "static/js/2.5d8a235b.chunk.js": "/nenad-portfolio/static/js/2.5d8a235b.chunk.js",
+    "static/js/2.5d8a235b.chunk.js.map": "/nenad-portfolio/static/js/2.5d8a235b.chunk.js.map",
+    "index.html": "/nenad-portfolio/index.html",
+    "static/css/main.db8ca18b.chunk.css.map": "/nenad-portfolio/static/css/main.db8ca18b.chunk.css.map",
+    "static/js/2.5d8a235b.chunk.js.LICENSE.txt": "/nenad-portfolio/static/js/2.5d8a235b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21845fd4.js",
+    "static/js/2.5d8a235b.chunk.js",
+    "static/css/main.db8ca18b.chunk.css",
+    "static/js/main.0ef3bc59.chunk.js"
+  ]
+}
